@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>kodstark.ex.orderbook</artifactId>
+    <packaging>jar</packaging>
+    <parent>        
+        <groupId>kodstark.ex.orderbook</groupId>
+        <artifactId>kodstark.ex.orderbook.parent</artifactId>
+        <version>0.0.1</version>
+    </parent> 
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>    
+</project>
